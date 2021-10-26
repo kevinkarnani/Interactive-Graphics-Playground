@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script type="text/javascript" src="../Common/initShaders2.js"></script>
+        <script type="text/javascript" src="../Common/MV.js"></script>
+        <script type="text/javascript" src="./app.js"></script>
+    </head>
+    <body>
+        <canvas id="gl-canvas" width="512" height="512">
+        Not supported
+        </canvas>
+        <div>
+            <button onclick="setToggle()">Toggle</button>
+            <input id="slide" type="range" min="0" max="100" step="10" value="50" /> 
+        </div>
+        <p>
+            Click the toggle button to reverse the direction of the squares and triangle.
+        </p>
+        <p>
+            Move the slider to change the rotation and circle "breath" speeds. Note: left-most value is 0, so everything stops.
+        </p>
+    </body>
+</html>

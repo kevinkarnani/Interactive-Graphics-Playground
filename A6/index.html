@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://greggman.github.io/webgl-lint/webgl-lint.js" crossorigin></script>
+        <script type="text/javascript" src="../Common/initShaders2.js"></script>
+        <script type="text/javascript" src="../Common/MV.js"></script>
+        <script type="text/javascript" src="./app.js"></script>
+    </head>
+    <body>
+        <canvas id="gl-canvas" width="512" height="512">
+        Not supported
+        </canvas>
+        <ul>
+            <li>forward/backward arrow: Move (slide camera) forward/backward (in/opposite the look-at vector -n)</li>
+            <li>right/left arrow: Move (slide camera) left/right (in/opposite to the u vector)</li>
+            <li>Z/z: Roll counterclockwise/clockwise in the xy-coordinate plane.</li>
+            <li>X/x: Pitch up/down</li>
+            <li>C/c: Yaw counterclockwsise/clockwise in the zx-coordinate plane.</li>
+            <li>s: Switch between vertex and fragment shading</li>
+        </ul>
+    </body>
+</html>
